@@ -397,6 +397,9 @@ margin-bottom: 12px;
 .logo-footer{
     color: var(--cloud-color);
 }
+.footer-soc{
+    margin-right: 80px;
+}
 .footer-title{
     color: var(--light-color);
     font-size: 16px;
@@ -433,6 +436,54 @@ margin-bottom: 12px;
     width:24px;
     height:24px;
     fill: var(--cloud-color);
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-form-field {
+    display: inline-block;
+    width: 264px;
+    margin-right: 24px;
+}
+
+.form-field-input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.form-field-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-form-btn{
+    box-shadow: none;
+    padding: 8px 64px 8px 24px;
+    line-height: 1.5;
+}
+.footer-btn{
+    position: relative;
+}
+.btn-form-icon{
+    position: absolute;
+    right: 24px;
+    bottom: 8px;
+    width: 24px;
+    height: 24px;
+    
 }
 /* Main of portfolio */
 .portfolio-hero-list{
